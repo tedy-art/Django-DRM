@@ -43,6 +43,7 @@
 
 <h1>login</h1>
 <br/>
+<div class="col-md-6 offest-md-3">
 <form method="POST" action="{% url 'home'%}">
     {% csrf_token %}
 
@@ -56,6 +57,6 @@
         <button type="submit" class="btn btn-secondary">login</button>
 
 </form>
-
+</div>
 {% endif %}
 {% endblock %}
